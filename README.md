@@ -1,5 +1,4 @@
-==========================================
-            >> ATM Simulation System <<
+   >> ATM Simulation System <<
 ==========================================
 
 Semester     : 6th Semester Minor Project
