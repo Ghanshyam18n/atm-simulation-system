@@ -80,12 +80,12 @@ I was actively involved in debugging and reviewing the code to ensure it meets a
 Package Explorer >>
 ----------------------------------------------------------------------------
 ATM_Simulation_System/
-├── src/
-│   └── atm/
-│       ├── Account.java
-│       ├── ATMOperations.java
-│       ├── ATMOperationsImpl.java
-│       └── ATMSimulator.java
+── src/
+atm/
+Account.java
+ATMOperations.java
+ATMOperationsImpl.java
+ATMSimulator.java
 
 ==========================================
             >> ATM Simulation System <<
