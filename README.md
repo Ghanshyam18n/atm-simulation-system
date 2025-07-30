@@ -1,6 +1,5 @@
-   >> ATM Simulation System <<
-==========================================
-
+**>> ATM Simulation System <<**
+------------------------------------------
 Semester     : 6th Semester Minor Project
 Course       : B.Tech in Computer Science & Engineering
 College      : Technocrats Institute of Technology & Science, Bhopal
