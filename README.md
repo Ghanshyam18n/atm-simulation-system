@@ -61,7 +61,7 @@ Use the following test credentials when prompted:
 PIN: 1234
 
 My Contribution
-I, Ghanshyam Sharma, was responsible for designing the application logic and implementing the core functionality. My role specifically included:
+My name is Ghanshyam Sharma, was responsible for designing the application logic and implementing the core functionality. My role specifically included:
 
 Writing Java code for deposit, withdrawal, balance enquiry, and mini statement
 
@@ -72,17 +72,18 @@ Handling error messages and ensuring the system gives clear user feedback
 Maintaining code readability and using OOP concepts like encapsulation and object creation
 
 Throughout the development, I was actively involved in writing, debugging, and reviewing the Java code. I made sure we applied proper coding standards and logical structure to deliver a clean, working simulation.
+
 <img width="237" height="283" alt="image" src="https://github.com/user-attachments/assets/3a63c02a-0363-4508-9910-02d7b9198439" />
 <img width="760" height="627" alt="image" src="https://github.com/user-attachments/assets/e5e633f7-9aeb-44de-8486-ada0eeba65e1" />
 <img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/aa3ae351-d4a9-49c8-95d0-d3f65e5746a8" />
 <img width="368" height="576" alt="image" src="https://github.com/user-attachments/assets/add05ddd-f251-4de8-b0db-6c16a85996ba" />
 
-**___________________________________________________________________________________________________________________________________________________________________________________**
 
+-------------------------------------------------------------------------
 **ATM Simulation System – Testing Document**
 Course: B.Tech in Computer Science & Engineering
 Semester: 6th Semester Project
-College: Technocrats Institute of Technology, Bhopal
+College: Technocrats Institute of Technology & Science, Bhopal
 Team Size: 4 Members
 Lead Contributor: Ghanshyam Sharma
 Testing Type: Manual Functional Testing
