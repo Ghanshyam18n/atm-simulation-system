@@ -1,204 +1,159 @@
-**>> ATM Simulation System <<**
-------------------------------------------
-Semester     : 6th Semester Minor Project
-Course       : B.Tech in Computer Science & Engineering
-College      : Technocrats Institute of Technology & Science, Bhopal
-Academic Year: 2024–2025
-Team Size    : 4 Members
+>> ATM Simulation System <<
+Semester: 6th Semester Minor Project  
+Course: B.Tech in Computer Science & Engineering  
+College: Technocrats Institute of Technology & Science, Bhopal  
+Academic Year: 2024–2025  
+Team Size: 4 Members  
 
-------------------------------------------
-PROJECT OVERVIEW
-------------------------------------------
-The ATM Simulation System is a Java-based console application designed to simulate the core functionalities of an ATM.
+--------------------------------------------------
 
-It allows a user to perform the following operations:
-- Balance enquiry
-- Cash withdrawal
-- Cash deposit
-- Mini statement generation
+Project Overview:
 
-This application was developed using Core Java with a strong focus on Object-Oriented Programming (OOP) concepts such as encapsulation, classes, and objects.
+This is a simple Java-based console application that simulates the basic functionalities of an ATM machine. The system allows the user to log in using a secure PIN and perform basic banking operations such as:
 
-It is designed to simulate a single user account and focuses on:
-- Logical flow
-- Input validation
-- User-friendly console interaction
-- Clean code structure
+- Checking account balance  
+- Withdrawing cash  
+- Depositing cash  
+- Viewing a mini statement  
 
-------------------------------------------
-TEAM MEMBERS & ROLES
-------------------------------------------
-Name                | Role / Contribution
------------------------------------------------------------
-Ghanshyam Sharma    | Designed the logic for various user scenarios, handled validations and error handling throughout the application.
-                      Actively involved in writing and debugging the core Java code.
-Deependra Shivhare  | Developed the user interface (console prompts), handled menu structure and user flow.
-Ghanshyam Sharma    | Helped design account and transaction logic, assisted with testing and validations.
-Ajay Rajak          | Contributed to documentation and assisted in reviewing logic and overall structure.
+The project focuses on using core Java concepts and follows Object-Oriented Programming principles like encapsulation and modular class design. It’s built for single-user simulation and ensures input validation and smooth user interaction.
 
-------------------------------------------
-TECHNOLOGIES USED
-------------------------------------------
-- Java (Core Java)
-- Object-Oriented Programming (Encapsulation, Classes, Objects, Methods)
-- Eclipse IDE (for coding and execution)
+--------------------------------------------------
 
-------------------------------------------
-FEATURES IMPLEMENTED
-------------------------------------------
-- PIN-based login with validation
-- Balance enquiry with proper formatting
-- Cash deposit with positive value check
-- Withdrawal with balance check to prevent overdraft
-- Mini statement showing user name and current balance
-- Clean and user-friendly console-based menu system
+Team Members & Their Roles:
 
-------------------------------------------
-HOW TO RUN THE PROJECT
-------------------------------------------
-1. Open the project in Eclipse IDE or any Java IDE.
-2. Ensure all .java files are in the same folder/package.
-3. Run the file named: ATMSimulator.java
-4. Use the following credentials when prompted:
-   - PIN: 1234
+- Ghanshyam Sharma – Designed the logic for handling different user scenarios, worked on validations and error handling, and contributed actively to writing and reviewing the Java code.
 
-------------------------------------------
-MY CONTRIBUTION
-------------------------------------------
-My name is Ghanshyam Sharma. I was responsible for designing the core logic of the application and implementing key functionalities.
+- Deependra Shivhare – Worked on the user interface (console prompts), designed the menu structure, and helped with user flow design.
 
-Specifically, I contributed to:
-- Writing Java code for deposit, withdrawal, balance enquiry, and mini statement
-- Implementing input validation (e.g., no negative amounts, sufficient balance check)
-- Handling error messages and ensuring clear user feedback
-- Maintaining code readability and applying OOP concepts effectively
+- Ajay Rajak – Supported in writing methods related to account operations like withdrawal and deposit, and assisted in testing.
 
-I was actively involved in debugging and reviewing the code to ensure it meets academic and functional requirements.
-----------------------------------------------------------------------------
-Package Explorer >>
-----------------------------------------------------------------------------
-ATM_Simulation_System/
-── src/
-atm/
-Account.java
-ATMOperations.java
-ATMOperationsImpl.java
-ATMSimulator.java
+- Sachin kumar – Took part in writing documentation, reviewed the overall logic structure, and gave suggestions for improvements.
 
-==========================================
-            >> ATM Simulation System <<
-==========================================
-Enter your PIN: 1234
+--------------------------------------------------
+
+Technologies & Tools Used:
+
+- Java (Core Java)  
+- Object-Oriented Programming Concepts  
+- Eclipse IDE for development and testing  
+
+--------------------------------------------------
+
+Features Implemented:
+
+- Secure login using a 4-digit PIN  
+- Deposit functionality with input checks  
+- Withdrawal functionality with balance validation  
+- Balance enquiry with formatted output  
+- Mini statement showing account holder details and balance  
+- Simple and easy-to-use menu-driven interface  
+
+--------------------------------------------------
+
+How to Run the Project:
+
+1. Open the project folder in Eclipse or any Java IDE.  
+2. Make sure all `.java` files are placed in the same package.  
+3. Run the `ATMSimulator.java` file.  
+4. When prompted, enter the following PIN to login:   → `1234`
+
+--------------------------------------------------
+
+My Contribution (Ghanshyam Sharma):
+
+As a part of the team, I was primarily responsible for designing how the application should behave during different operations. I wrote major parts of the code related to deposit, withdrawal, balance enquiry, and mini statement features.
+
+I also implemented input validations to prevent negative amounts and overdraft situations. Apart from this, I helped debug the overall system and ensured that the logic was structured well using proper OOP principles.
+
+This project helped me strengthen my understanding of Java and how to build real-world console-based applications using clean code and user-focused design.
+
+--------------------------------------------------
 
 1. View Balance
+   
    <img width="376" height="365" alt="image" src="https://github.com/user-attachments/assets/360064d1-5d56-4192-816e-adb65f8ec439" />
 
 3. Withdraw Amount
+   
    <img width="230" height="152" alt="image" src="https://github.com/user-attachments/assets/abf005eb-2523-4d9c-a5da-902f3c54b9b4" />
 
 5. Deposit Amount
+   
    <img width="244" height="156" alt="image" src="https://github.com/user-attachments/assets/53aed350-acd6-4868-a76f-bde278eac400" />
 
 7. View Mini Statement
+   
    <img width="234" height="191" alt="image" src="https://github.com/user-attachments/assets/b129a581-e7d6-4e59-b68b-4de12069a8dc" />
 
 9. Exit
+    
    <img width="293" height="151" alt="image" src="https://github.com/user-attachments/assets/bf7ab710-436a-4552-9833-6c3a4f612540" />
 
  
+ATM SIMULATION SYSTEM - TESTING DOCUMENT
 
--------------------------------------------------------------------------
-**ATM Simulation System – Testing Document**
-Course: B.Tech in Computer Science & Engineering
-Semester: 6th Semester Project
-College: Technocrats Institute of Technology & Science, Bhopal
-Team Size: 4 Members
-Lead Contributor: Ghanshyam Sharma
+Course: B.Tech in Computer Science & Engineering  
+Semester: 6th Semester Minor Project  
+College: Technocrats Institute of Technology & Science, Bhopal  
+Team Size: 4 Members  
+Tested By: Ghanshyam Sharma  
 Testing Type: Manual Functional Testing
 
-**1. Purpose of Testing**
-The main purpose of testing this project was to ensure that each feature of the ATM Simulation System works as expected. We verified that the application handles both valid and invalid user inputs properly and provides appropriate responses for different actions like login, withdrawal, deposit, and balance enquiry.
+--------------------------------------------------
+1. Purpose of Testing
+--------------------------------------------------
+The main goal of testing this ATM Simulation System was to check that every feature works as expected. 
+We tested all the key functionalities like login, withdrawal, deposit, balance enquiry, and mini statement. 
+We also made sure the system handles invalid inputs properly.
 
-2. TEST ENVIRONMENT SETUP
-------------------------------------------
-Programming Language : Java (Core Java)
-IDE Used             : Eclipse IDE
-Platform             : Console-based
-Operating System     : Windows 10/11
-User Input Method    : Console Keyboard Input
-Test Data Used       : Account with PIN = 1234
+--------------------------------------------------
+2. Test Environment Setup
+--------------------------------------------------
+Programming Language : Core Java  
+IDE Used             : Eclipse IDE  
+Platform             : Console-based Java application  
+Operating System     : Windows 10 / 11  
+Input Type           : Console (keyboard input)  
+Test Data Used       : Account PIN = 1234  
 
-------------------------------------------
-3. TEST SCENARIOS & RESULTS
-------------------------------------------
+--------------------------------------------------
+3. Test Scenarios and Results
+--------------------------------------------------
 
--- LOGIN FUNCTIONALITY --
-Test Case: Correct PIN
-Input    : 1234
-Expected : Access granted
-Result   : Pass
+Login Functionality  
+- Input: 1234 → Expected: Access granted → Result: Pass  
+- Input: 0000 → Expected: Access denied  → Result: Pass  
 
-Test Case: Incorrect PIN
-Input    : 0000
-Expected : Access denied
-Result   : Pass
+Balance Enquiry  
+- Input: Option 1 → Expected: Show current balance → Result: Pass  
 
--- BALANCE ENQUIRY --
-Test Case: Check balance
-Input    : Option 1
-Expected : Show current balance
-Result   : Pass
+Deposit Functionality  
+- Input: 2000  → Expected: Deposit successful     → Result: Pass  
+- Input: -500  → Expected: Invalid deposit amount → Result: Pass  
+- Input: 0     → Expected: Invalid deposit amount → Result: Pass  
 
--- DEPOSIT FUNCTIONALITY --
-Test Case: Valid amount
-Input    : 2000
-Expected : Deposit successful
-Result   : Pass
+Withdrawal Functionality  
+- Input: 3000   → Expected: Withdrawal successful     → Result: Pass  
+- Input: 50000  → Expected: Insufficient balance      → Result: Pass  
+- Input: -100   → Expected: Invalid withdrawal amount → Result: Pass  
 
-Test Case: Negative amount
-Input    : -500
-Expected : Invalid deposit amount
-Result   : Pass
+Mini Statement  
+- Input: Option 4 → Expected: Show name and balance → Result: Pass  
 
-Test Case: Zero amount
-Input    : 0
-Expected : Invalid deposit amount
-Result   : Pass
+Exit Functionality  
+- Input: Option 5 → Expected: Exit message displayed → Result: Pass  
 
--- WITHDRAWAL FUNCTIONALITY --
-Test Case: Valid amount
-Input    : 3000
-Expected : Withdrawal successful
-Result   : Pass
+--------------------------------------------------
+4. Bugs Observed
+--------------------------------------------------
+No bugs were found during the testing process.  
+All functionalities performed as expected and handled valid as well as invalid input cases properly.
 
-Test Case: Amount > Balance
-Input    : 50000
-Expected : Insufficient balance
-Result   : Pass
-
-Test Case: Negative amount
-Input    : -100
-Expected : Invalid amount
-Result   : Pass
-
--- MINI STATEMENT --
-Test Case: View mini statement
-Input    : Option 4
-Expected : Show name and balance
-Result   : Pass
-
--- EXIT FUNCTIONALITY --
-Test Case: Exit program
-Input    : Option 5
-Expected : Exit message displayed
-Result   : Pass
-
-------------------------------------------
-4. BUGS OBSERVED
-------------------------------------------
-No bugs or errors were observed. All features performed correctly and handled both valid and invalid cases as expected.
-
-------------------------------------------
-5. SUMMARY & CONCLUSION
-------------------------------------------
-The ATM Simulation System has been thoroughly tested using manual inputs. The program behaves correctly across all scenarios and provides a smooth user experience. It is ready for academic submission.
+--------------------------------------------------
+5. Summary and Conclusion
+--------------------------------------------------
+We performed manual testing on the ATM Simulation System to ensure that the system behaves correctly under different scenarios.  
+The application responded well to both correct and incorrect inputs.  
+All core functions such as login, deposit, withdrawal, balance enquiry, and mini statement worked without any issues.  
+The system is ready for academic submission and meets the project objectives.
