@@ -1,83 +1,113 @@
-**>> ATM Simulation System <<**
-Semester: 6th Semester minor Project
+==========================================
+            >> ATM Simulation System <<
+==========================================
 
-Course: B.Tech in Computer Science & Engineering
-
-College: Technocrats Institute of Technology & Science, Bhopal
-
+Semester     : 6th Semester Minor Project
+Course       : B.Tech in Computer Science & Engineering
+College      : Technocrats Institute of Technology & Science, Bhopal
 Academic Year: 2024–2025
+Team Size    : 4 Members
 
-Team Size: 4 Members
+------------------------------------------
+PROJECT OVERVIEW
+------------------------------------------
+The ATM Simulation System is a Java-based console application designed to simulate the core functionalities of an ATM.
 
-Project Overview
-The ATM Simulation System is a simple Java-based console application designed to simulate the core functionalities of an ATM. It allows a user to interact with an account using a PIN-based login and perform the following operations:
+It allows a user to perform the following operations:
+- Balance enquiry
+- Cash withdrawal
+- Cash deposit
+- Mini statement generation
 
-Balance enquiry
+This application was developed using Core Java with a strong focus on Object-Oriented Programming (OOP) concepts such as encapsulation, classes, and objects.
 
-Cash withdrawal
+It is designed to simulate a single user account and focuses on:
+- Logical flow
+- Input validation
+- User-friendly console interaction
+- Clean code structure
 
-Cash deposit
+------------------------------------------
+TEAM MEMBERS & ROLES
+------------------------------------------
+Name                | Role / Contribution
+-----------------------------------------------------------
+Ghanshyam Sharma    | Designed the logic for various user scenarios, handled validations and error handling throughout the application.
+                      Actively involved in writing and debugging the core Java code.
+Deependra Shivhare  | Developed the user interface (console prompts), handled menu structure and user flow.
+Ghanshyam Sharma    | Helped design account and transaction logic, assisted with testing and validations.
+Ajay Rajak          | Contributed to documentation and assisted in reviewing logic and overall structure.
 
-Mini statement generation
+------------------------------------------
+TECHNOLOGIES USED
+------------------------------------------
+- Java (Core Java)
+- Object-Oriented Programming (Encapsulation, Classes, Objects, Methods)
+- Eclipse IDE (for coding and execution)
 
-This application was developed using Core Java, with a strong focus on Object-Oriented Programming (OOP) principles. It is built to simulate a real-world ATM experience for a single user account with emphasis on input validation, logical flow, and clean code structure.
+------------------------------------------
+FEATURES IMPLEMENTED
+------------------------------------------
+- PIN-based login with validation
+- Balance enquiry with proper formatting
+- Cash deposit with positive value check
+- Withdrawal with balance check to prevent overdraft
+- Mini statement showing user name and current balance
+- Clean and user-friendly console-based menu system
 
-Team Members & Roles
-Name	Role / Contribution
-Ghanshyam Sharma	Designed the logic for various user scenarios, handled validations and error handling throughout the application. Actively involved in writing and debugging the core Java code.
-Deependra Shivhare -	Developed the user interface (console prompts), handled menu structure and user flow.
-Ghanshyam Sharma - - 	Helped design account and transaction logic, assisted with testing and validations.
-Ajay Rajak - - - - -  Contributed to documentation and assisted in reviewing logic and overall structure.
+------------------------------------------
+HOW TO RUN THE PROJECT
+------------------------------------------
+1. Open the project in Eclipse IDE or any Java IDE.
+2. Ensure all .java files are in the same folder/package.
+3. Run the file named: ATMSimulator.java
+4. Use the following credentials when prompted:
+   - PIN: 1234
 
-Technologies Used
-Java (Core Java)
+------------------------------------------
+MY CONTRIBUTION
+------------------------------------------
+My name is Ghanshyam Sharma. I was responsible for designing the core logic of the application and implementing key functionalities.
 
-Object-Oriented Programming (Encapsulation, Classes, Objects, Methods)
+Specifically, I contributed to:
+- Writing Java code for deposit, withdrawal, balance enquiry, and mini statement
+- Implementing input validation (e.g., no negative amounts, sufficient balance check)
+- Handling error messages and ensuring clear user feedback
+- Maintaining code readability and applying OOP concepts effectively
 
-Eclipse IDE (for coding and execution)
+I was actively involved in debugging and reviewing the code to ensure it meets academic and functional requirements.
+----------------------------------------------------------------------------
+Package Explorer >>
+----------------------------------------------------------------------------
+ATM_Simulation_System/
+├── src/
+│   └── atm/
+│       ├── Account.java
+│       ├── ATMOperations.java
+│       ├── ATMOperationsImpl.java
+│       └── ATMSimulator.java
 
-Features Implemented
-PIN-based login with validation
+==========================================
+            >> ATM Simulation System <<
+==========================================
+Enter your PIN: 1234
 
-Balance enquiry with proper formatting
+1. View Balance
+   <img width="376" height="365" alt="image" src="https://github.com/user-attachments/assets/360064d1-5d56-4192-816e-adb65f8ec439" />
 
-Cash deposit with positive value check
+3. Withdraw Amount
+   <img width="230" height="152" alt="image" src="https://github.com/user-attachments/assets/abf005eb-2523-4d9c-a5da-902f3c54b9b4" />
 
-Withdrawal with balance check to prevent overdraft
+5. Deposit Amount
+   <img width="244" height="156" alt="image" src="https://github.com/user-attachments/assets/53aed350-acd6-4868-a76f-bde278eac400" />
 
-Mini statement showing user name and current balance
+7. View Mini Statement
+   <img width="234" height="191" alt="image" src="https://github.com/user-attachments/assets/b129a581-e7d6-4e59-b68b-4de12069a8dc" />
 
-Clean and user-friendly console-based menu system
+9. Exit
+   <img width="293" height="151" alt="image" src="https://github.com/user-attachments/assets/bf7ab710-436a-4552-9833-6c3a4f612540" />
 
-How to Run the Project
-Open the project in Eclipse IDE or any other Java IDE.
-
-Ensure all .java files are in the same folder/package.
-
-Run the ATMSimulator.java file.
-
-Use the following test credentials when prompted:
-
-PIN: 1234
-
-My Contribution
-My name is Ghanshyam Sharma, was responsible for designing the application logic and implementing the core functionality. My role specifically included:
-
-Writing Java code for deposit, withdrawal, balance enquiry, and mini statement
-
-Implementing input validation (e.g., no negative amounts, balance checks)
-
-Handling error messages and ensuring the system gives clear user feedback
-
-Maintaining code readability and using OOP concepts like encapsulation and object creation
-
-Throughout the development, I was actively involved in writing, debugging, and reviewing the Java code. I made sure we applied proper coding standards and logical structure to deliver a clean, working simulation.
-
-<img width="237" height="283" alt="image" src="https://github.com/user-attachments/assets/3a63c02a-0363-4508-9910-02d7b9198439" />
-<img width="760" height="627" alt="image" src="https://github.com/user-attachments/assets/e5e633f7-9aeb-44de-8486-ada0eeba65e1" />
-<img width="1364" height="655" alt="image" src="https://github.com/user-attachments/assets/aa3ae351-d4a9-49c8-95d0-d3f65e5746a8" />
-<img width="368" height="576" alt="image" src="https://github.com/user-attachments/assets/add05ddd-f251-4de8-b0db-6c16a85996ba" />
-
+ 
 
 -------------------------------------------------------------------------
 **ATM Simulation System – Testing Document**
